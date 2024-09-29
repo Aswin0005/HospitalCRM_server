@@ -2,7 +2,7 @@ const express = require('express');
 const nodemailer = require('nodemailer');
 const cors = require('cors');
 const mongoose = require('mongoose');
-const EmailLog = require('./models/EmailLog');
+const EmailLog = require('./models/Emaillogs');
 const dotenv = require('dotenv');
 dotenv.config();
 
